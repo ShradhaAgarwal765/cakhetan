@@ -20,10 +20,6 @@
         display: inline;
         margin:1rem;
     }
-    .slider_text_phn{
-        visibility: hidden;
-        display: none;
-    }
 }
 
 /* Media Query 991px */
@@ -32,11 +28,6 @@
     /* 01 Navbar CSS */
     .contact-nav-div{
         visibility: hidden;
-    }
-
-    .slider_text_phn{
-        visibility: hidden;
-        display: none;
     }
     .navi-toggle-sign{
         visibility: inherit;
@@ -57,9 +48,6 @@
     body,
     html {
         font-size: 8px;
-    }
-    .contact-nav-div{
-        visibility: hidden;
     }
     .navi-toggle-sign{
         position: absolute;
@@ -90,13 +78,8 @@
     html {
         font-size: 7px;
     }
-    .contact-nav-div, .logo-cl{
+    .logo-cl{
         visibility: hidden;
-    }
-    .navi-toggle-sign{
-        position: absolute;
-        top:1rem;
-        right:5rem;
     }
     .slider_text_phn{
         visibility: visible;
@@ -111,8 +94,6 @@
 
 @media (max-width:490px) {
     .slider_text_phn{
-        visibility: visible;
-        display:block;
         position: absolute;
         top:30rem;
         left:5rem;
