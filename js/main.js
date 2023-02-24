@@ -28,11 +28,11 @@ if (!sessionStorage.getItem('popupShown')) {
   // show the popup
 
   customAlert("The Institue of Chartered Accountants of India does not permit advertisement or solicitation by" +
-    " practicing chartered accountants in any form or manner. By accessing this website, www.cakhetan.com, you" +
+    " practicing chartered accountants in any form or manner. By accessing this website,www.cakhetan.com, you" +
     " acknowledge and confirm that you are seeking information relating to Khetan Rajesh Kumar & Co. of your own" +
     " accord and that there has been no form of solicitation, advertisement or inducement by Khetan Rajesh Kumar & Co." +
     " or its team. The content of this website is for informational purposes only and should not be interpreted as" +
-    " soliciting or advertisement. No material/information provided on this website should be construed as legal advice." +
+    " soliciting or advertisement.No material/information provided on this website should be construed as legal advice." +
     " Khetan Rajesh Kumar & Co. shall not be liable for consequences of any action taken by relying on the material/information" +
     " provided on this website. The contents of this website are the intellectual property of Khetan Rajesh Kumar & Co.", "Disclaimer");
 
