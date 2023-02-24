@@ -115,6 +115,9 @@
     .founder_res{
         text-align: center;
     }
+    .img_foundr{
+        margin-left: 5rem;
+    }
 }
 
 /* Media Query 767px */
@@ -142,6 +145,9 @@
         margin-top: -0.5rem;
         height: 4rem;
     }
+    .team_about_img{
+        margin-left:-10rem;
+    }
 }
 
 /* Media Query 590px */
@@ -152,5 +158,26 @@
     html {
         font-size: 7px;
     }
+    .founder-img{
+        margin-left:15rem;
+    }
 
+}
+
+/* Media Query 400px */
+@media (max-width:400px){
+    .founder-img{
+        margin-left:10rem;
+    }
+
+    .team_about_img{
+        margin-left:-15rem;
+    }
+}
+
+/* Media Query 250px */
+@media (max-width:250px){
+    .img_foundr{
+        margin-left:0.5rem;
+    }
 }
